@@ -14,7 +14,7 @@ const spriteHeight = 523; //defining height of each sprite
 //Defining the gameframe which increases by 1 everytime animate() is called
 let gameFrame = 0;
 //SkipFrames is used to adjust animation speed. Lower value means Higher speed
-const skipFrames = 4;
+const skipFrames = 5;
 //Create an animationStates object consisting of the number of frames in each animation
 const animationStates = [
     {
