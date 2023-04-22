@@ -184,8 +184,7 @@ function animate(timestamp){
     explosions = explosions.filter(object => !object.markedForDeletion);
     particles = particles.filter(object => !object.markedForDeletion);
     // console.log(ravens);
-    // if(!gameOver)
-    requestAnimationFrame(animate)
-    // else drawGameOver()
+    if(!gameOver) requestAnimationFrame(animate)
+    else drawGameOver()
 }
 animate(0)
